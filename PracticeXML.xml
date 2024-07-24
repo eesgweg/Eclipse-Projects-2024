@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SalesData>
+    <Sales>
+        <Sale>
+            <Date>2023-01-01</Date>
+            <ProductID>1</ProductID>
+            <ProductName>Product A</ProductName>
+            <Quantity>10</Quantity>
+            <Price>15.99</Price>
+        </Sale>
+        <Sale>
+            <Date>2023-01-02</Date>
+            <ProductID>2</ProductID>
+            <ProductName>Product B</ProductName>
+            <Quantity>5</Quantity>
+            <Price>25.50</Price>
+        </Sale>
+        <Sale>
+            <Date>2023-01-03</Date>
+            <ProductID>3</ProductID>
+            <ProductName>Product C</ProductName>
+            <Quantity>8</Quantity>
+            <Price>9.75</Price>
+        </Sale>
+        <Sale>
+            <Date>2023-01-04</Date>
+            <ProductID>1</ProductID>
+            <ProductName>Product A</ProductName>
+            <Quantity>7</Quantity>
+            <Price>15.99</Price>
+        </Sale>
+        <Sale>
+            <Date>2023-01-05</Date>
+            <ProductID>2</ProductID>
+            <ProductName>Product B</ProductName>
+            <Quantity>12</Quantity>
+            <Price>25.50</Price>
+        </Sale>
+        <Sale>
+            <Date>2023-01-06</Date>
+            <ProductID>3</ProductID>
+            <ProductName>Product C</ProductName>
+            <Quantity>4</Quantity>
+            <Price>9.75</Price>
+        </Sale>
+        <Sale>
+            <Date>2023-01-07</Date>
+            <ProductID>1</ProductID>
+            <ProductName>Product A</ProductName>
+            <Quantity>3</Quantity>
+            <Price>15.99</Price>
+        </Sale>
+    </Sales>
+</SalesData>

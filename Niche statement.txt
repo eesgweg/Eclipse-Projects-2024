@@ -1,0 +1,13 @@
+LinkedIn New:
+I specialize in creating robust, efficient, and scalable automated testing frameworks that enhance software quality and accelerate the development lifecycle. My 6+ yrs Automation experience expertise lies in leveraging cutting-edge tools and technologies(Selenium/Tosca/Rest Assured API) to design comprehensive test suites that ensure reliability, performance, and security across various platforms. I am dedicated to driving continuous improvement in testing processes, reducing manual effort, and delivering high-quality software products with precision and speed.
+
+Niche statement:
+V1:
+I help organisations to creating robust, efficient, and scalable automated testing frameworks by the help of Selenium/Tosca/Rest Assured API tools to enhance software quality and accelerate development lifecycle & drive continuous improvement in testing processes, reducing manual effort, and delivering high-quality software products with precision and speed.
+
+V2:
+I help organizations create robust, efficient & scalable automated testing frameworks using Selenium, Tosca & Rest Assured API tools. My expertise enhances software quality, accelerates the development lifecycle, and drives continuous improvement in testing processes, reducing manual effort and delivering high-quality software products with precision and speed.
+
+LinkedIn OLD:
+6+ years of experience as Test engineer with strong interpersonal and multi-tasking skills and ability to work in teams. Good knowledge in manual and experience in automation testing with Selenium & Tosca tools for 4+ years, always looking for challenging opportunity in an organization where I can use my talents and skills to grow and expand an organization as well as myself.
+
