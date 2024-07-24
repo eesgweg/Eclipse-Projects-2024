@@ -1,27 +1,20 @@
-# Define the path and name of the text file
-$filePath = "C:\Users\swats\OneDrive\Desktop\PowerBI Files\file.txt"
+# Define email parameters
+$smtpServer = "smtp.your-email-provider.com"
+$smtpPort = 587 # Typically, 587 is used for SMTP with TLS
+$smtpUser = "your-email@example.com"
+$smtpPassword = "your-email-password"
 
-# Define the data to be written to the file
-$data = @"
-This is the first line of text.
-This is the second line of text.
-This is the third line of text.
-"@
+$from = "your-email@example.com"
+$to = "recipient-email@example.com"
+$subject = "Test Email from PowerShell"
+$body = "This is a test email sent from PowerShell script."
 
-# Create the text file and write data to it
-# If the file already exists, it will overwrite the existing file
-$data | Out-File -FilePath $filePath -Force
+# Create secure password
+$securePassword = ConvertTo-SecureString -String $smtpPassword -AsPlainText -Force
 
-# Output a message indicating the file has been created and data written
-Write-Output "File created and data written to $filePath"
+# Create credential object
+$credential = New-Object System.Management.Automation.PSCredential -ArgumentList $smtpUser, $securePassword
 
-# Add the necessary .NET assembly to use Windows Forms
-Add-Type -AssemblyName System.Windows.Forms
-Start-Sleep -Seconds 5
-
-# Define the message and title
-$message = "This is a message box with an OK button."
-$title = "Message Box Title"
-
-# Show the message box with an OK button
-[System.Windows.Forms.MessageBox]::Show($message, $title, [System.Windows.Forms.MessageBoxButtons]::OK)
+# Send email
+Send-MailMessage -SmtpServer $smtpServer -Port $smtpPort -Credential $credential -UseSsl `
+    -From $from -To $to -Subject $subject -Body $body
